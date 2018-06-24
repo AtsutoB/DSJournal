@@ -8,4 +8,4 @@ github_username:  AtsutoB
 
 # Build settings
 markdown: kramdown
-theme: arcana
+theme: minima
