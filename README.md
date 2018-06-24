@@ -1,1 +1,1 @@
-My amazing colecction of data driven project management projects
+My collection of data driven project management conundrums
