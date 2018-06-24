@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-This is an about page about this awesome site.
+My amazing collection of data driven project management projects
 Hope you love it!
 
 Reasons:
@@ -12,4 +12,4 @@ Reasons:
 
 ## Other thoughts
 
-This is great.
+By leveraging
