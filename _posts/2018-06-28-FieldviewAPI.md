@@ -1,13 +1,10 @@
 The following article details how to set up the fieldview API to retrive task information:
 
+Set the POST request to load information from https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_TasksServices.asmx
+
 ```xml
-
 <?xml version="1.0" encoding="utf-8"?>
-
-
-
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-
   <soap:Body>
     <GetProjectTasksList xmlns="https://localhost.priority1.uk.net/Priority1WebServices/JSON">     
         <apiToken>Add_API_Token</apiToken>
