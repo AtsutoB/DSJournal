@@ -2,7 +2,7 @@ To address the lack of guidance that exists around the fieldview API (Applicatio
 
 We will be calling 2 different API functions in order to get the corrcet information to call the GetprojectTasksList() function which, as the name implies, gets a lists of tasks from a particular project.
 
-The functions you first need to call are the [GetProjectTaskTypes()] (https://fvdocs.viewpoint.com/Admin_web_topics/APIs/tasks_services/r_GetProjectTaskTypes.html) and [GetProjectDetails()](https://fvdocs.viewpoint.com/Admin_web_topics/APIs/project_services/r_GetProjectDetails.html)
+The functions you first need to call are the [GetProjectTaskTypes()](https://fvdocs.viewpoint.com/Admin_web_topics/APIs/tasks_services/r_GetProjectTaskTypes.html) and [GetProjectDetails()](https://fvdocs.viewpoint.com/Admin_web_topics/APIs/project_services/r_GetProjectDetails.html)
 
 
 
