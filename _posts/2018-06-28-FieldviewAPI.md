@@ -1,4 +1,42 @@
-To address the lack of guidance that exists around the fieldview API. I thought i'd write up an article on how to connect up to View points fieldview API. I imagine many in the construction sector using this application have experienced the horrific nature of trying to locate any information that is captured on the system.
+To address the lack of guidance that exists around the fieldview API (Application programming inteface). I thought i'd write up an article on how to connect and use it for loading the task lists from fieldview. I imagine many in the construction sector using this application have experienced the horrific nature of trying to locate any information that is captured on the system.
+
+We will be calling 2 different API functions in order to get the corrcet information to call the GetprojectTasksList() function which, as the name implies, gets a lists of tasks from a particular project.
+
+The functions you first need to call are the [GetProjectTaskTypes()] (https://fvdocs.viewpoint.com/Admin_web_topics/APIs/tasks_services/r_GetProjectTaskTypes.html) and [GetProjectDetails()](https://fvdocs.viewpoint.com/Admin_web_topics/APIs/project_services/r_GetProjectDetails.html)
+
+
+
+https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_ProjectServices.asmx
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetProjectDetails xmlns="https://localhost.priority1.uk.net/Priority1WebServices/JSON">
+      <apiToken>76856344F44FAA576D6897BAB6C7F6</apiToken>
+      <startRow>1</startRow>
+      <pageSize>500</pageSize>
+    </GetProjectDetails>
+  </soap:Body>
+</soap:Envelope>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 POST request to load information from https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_TasksServices.asmx
 
@@ -7,9 +45,9 @@ POST request to load information from https://www.priority1.uk.net/FieldViewWebS
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <GetProjectTasksList xmlns="https://localhost.priority1.uk.net/Priority1WebServices/JSON">     
-        <apiToken>Add_API_Token</apiToken>
-        <projectId>Add_Project_ID</projectId>   
-        <taskTypeLinkIds>ADD_Task_Type_Link_ID</taskTypeLinkIds>
+        <apiToken>Add_API_Token_Here</apiToken>
+        <projectId>Add_Project_ID_Here</projectId>   
+        <taskTypeLinkIds>ADD_Task_Type_Link_ID_Here</taskTypeLinkIds>
         <createdDateFrom>2018-06-28-02:00</createdDateFrom>    
         <createdDateTo>2018-06-29-01:00</createdDateTo>
     </GetProjectTasksList>
