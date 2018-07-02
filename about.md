@@ -1,9 +1,9 @@
----
-layout: page
-title: About
----
+# About this blog and myself
 
- [My CV] (https://github.com/AtsutoB/DSJournal/blob/master/MathewBriggs-CV.pdf) 
+
+[https://github.com/AtsutoB/DSJournal/blob/master/MathewBriggs-CV.pdf] (MathewBriggs-CV.pdf)
+
+
 
 ## Other thoughts
 
