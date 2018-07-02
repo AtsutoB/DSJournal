@@ -1,6 +1,6 @@
-The following article details how to set up the fieldview API to retrive task information:
+To address the lack of guidance that exists around the fieldview API. I thought i'd write up an article on how to connect up to View points fieldview API. I imagine many in the construction sector using this application have experienced the horrific nature of trying to locate any information that is captured on the system.
 
-Set the POST request to load information from https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_TasksServices.asmx
+POST request to load information from https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_TasksServices.asmx
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
