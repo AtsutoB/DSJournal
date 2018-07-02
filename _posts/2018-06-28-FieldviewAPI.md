@@ -13,7 +13,7 @@ https://www.priority1.uk.net/FieldViewWebServices/WebServices/JSON/API_ProjectSe
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <GetProjectDetails xmlns="https://localhost.priority1.uk.net/Priority1WebServices/JSON">
-      <apiToken>76856344F44FAA576D6897BAB6C7F6</apiToken>
+      <apiToken>ADD_API_TOKEN_HERE</apiToken>
       <startRow>1</startRow>
       <pageSize>500</pageSize>
     </GetProjectDetails>
