@@ -3,12 +3,7 @@ layout: page
 title: About
 ---
 
-My amazing collection of data driven project management projects
-Hope you love it!
-
-Reasons:
-- its great.
-- its a test.
+ [My CV] (https://github.com/AtsutoB/DSJournal/blob/master/MathewBriggs-CV.pdf) 
 
 ## Other thoughts
 
