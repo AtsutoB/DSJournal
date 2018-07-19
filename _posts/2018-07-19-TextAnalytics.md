@@ -10,3 +10,4 @@ So, this article will cover what I came up with!
 My idea is something that I've toyed about for a while now. I've wanted to be able to get an overall view or opinion on construction related topics based off the institute of civil engineers (ICE) news articles and blogs.
 
 
+[!NOTE] This is a work in progress.
