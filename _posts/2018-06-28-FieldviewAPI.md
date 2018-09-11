@@ -4,7 +4,7 @@ First things first, an API can be thought of as a group of functions that allows
 
 Phew so nearly finished with all the explainy bits an getting closer to the 'copy and paste this stuff' bit! Which is where is gets exciting! As your data will start to become more integrated as it omes closer together!
 
-![Screen grab of Postman](/assets/photos/PostmanStart.png)
+![Screen grab of Postman](DSJournal/assets/photos/PostmanStart.png)
     
 
 We will be calling 2 different API functions in order to get the corrcet information to call the GetprojectTasksList() function which, as the name implies, gets a lists of tasks from a particular project.
