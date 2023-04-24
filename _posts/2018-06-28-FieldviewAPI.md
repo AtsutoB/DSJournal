@@ -8,6 +8,7 @@ The way I recommend using and testing an API and how i will show what to be done
 
 ![Screen grab of Postman](https://atsutob.github.io/DSJournal/assets/photos/PostmanStart.png)
     
+![Screen grab of Postman](https://atsutob.github.io/DSJournal/assets/photos/intro.svg)
 
 We will be calling 2 different API functions in order to get the corrcet information to call the GetprojectTasksList() function which, as the name implies, gets a lists of tasks from a particular project.
 
