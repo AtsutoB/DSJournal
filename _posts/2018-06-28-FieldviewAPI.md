@@ -7,12 +7,13 @@ Phew so nearly finished with all the explainy bits and getting closer to the 'co
 The way I recommend using and testing an API and how i will show what to be done in this post will be through the use of a chrome app called POSTman.
 
 ![Screen grab of Postman](https://atsutob.github.io/DSJournal/assets/photos/PostmanStart.png)
-    
+
+----
 ![Screen grab of Postman](https://atsutob.github.io/DSJournal/assets/photos/intro.svg)
 <img src="https://atsutob.github.io/DSJournal/assets/photos/intro.svg">
 
-
-
+----
+<object data="https://atsutob.github.io/DSJournal/assets/photos/intro.svg" type="image/svg+xml"></object>
 
 We will be calling 2 different API functions in order to get the corrcet information to call the GetprojectTasksList() function which, as the name implies, gets a lists of tasks from a particular project.
 
